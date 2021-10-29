@@ -15,6 +15,7 @@ namespace wfm
             Text         = "VS 2019 Enterprise";
             label1.Text  = "hello vs 2019";
             button1.Text = "OK";
+            textBox1.Text = "Professional";
         }
 
         private void button1_Click(object sender, EventArgs e)
