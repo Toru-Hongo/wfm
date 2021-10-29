@@ -16,12 +16,16 @@ namespace wfm
             label1.Text  = "hello vs 2019";
             button1.Text = "OK";
             textBox1.Text = "Professional";
+            checkBox1.Text = "終了する場合はチェック";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Close Now?");
-            Close();
+            if (checkBox1.Checked)
+            {
+                MessageBox.Show("Close Now?");
+                Close();
+            }
         }
     }
 }
